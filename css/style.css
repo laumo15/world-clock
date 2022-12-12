@@ -27,20 +27,22 @@ select {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
-.city {
+.cities {
     display: flex;
     justify-content: space-between;
     margin: 20px 0;
+    padding: 30px;
     border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
 }
 
-.city:last-child {
+.cities:last-child {
     border: none;
 }
 
 .time {
     font-size: 48px;
     font-weight: bold;
+    text-align: right;
 }
 
 .time small {
@@ -54,6 +56,6 @@ select {
 
 footer {
     text-align: center;
-    font-size: 24px;
+    font-size: 18px;
     color: rgba(0, 0, 0, 0.7);
 }
