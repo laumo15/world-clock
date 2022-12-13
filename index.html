@@ -12,25 +12,27 @@
 <body>
     <div class="container">
         <h1>World clock</h1>
-        <select>
-            <option>Choose a city</option>
-            <option>London</option>
-            <option>New York</option>
-            <option>Auckland</option>
+        <select id="city">
+            <option value="">Choose a city</option>
+            <option value="Europe/London">London</option>
+            <option value="America/New_York">New York</option>
+            <option value="Pacific/Auckland">Auckland</option>
         </select>
-        <div class="cities" id="los-angeles">
-            <div>
-                <h2>Los Angeles</h2>
-                <div class="date">August 15th 2022</div>
+        <div class="cities" id="cities">
+            <div class="city" id="los-angeles">
+                <div>
+                    <h2>Los Angeles</h2>
+                    <div class="date">August 15th 2022</div>
+                </div>
+                <div class="time">1:46:18 <small>AM</small></div>
             </div>
-            <div class="time">1:46:18 <small>AM</small></div>
-        </div>
-        <div class="cities" id="paris">
-            <div>
-                <h2>Paris</h2>
-                <div class="date">August 15th 2022</div>
+            <div class="city" id="paris">
+                <div>
+                    <h2>Paris</h2>
+                    <div class="date">August 15th 2022</div>
+                </div>
+                <div class="time">3:46:18 <small>AM</small></div>
             </div>
-            <div class="time">3:46:18 <small>AM</small></div>
         </div>
         <footer>This project was coded by <bold>Laura</bold> and is <a href="https://github.com/laumo15/world-clock">open sourced on GitHub</a></footer>
         <script src = "javascript/index.js"></script>
