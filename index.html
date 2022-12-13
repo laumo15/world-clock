@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200;300;400;500;600;700;800;900&family=Taviraj:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.40/moment-timezone-with-data-1970-2030.min.js"></script>
-    <title>World clock</title>
+    <title>Time is just a convention</title>
 </head>
 <body>
     <div class="container">
-        <h1>World clock</h1>
+        <h1>Time is just a convention</h1>
         <select id="city">
             <option value="">Select a city</option>
             <option value="current">My timezone</option>
@@ -27,15 +28,22 @@
                 </div>
                 <div class="time">1:46:18 <small>AM</small></div>
             </div>
-            <div class="city" id="paris">
+            <div class="city" id="rome">
                 <div>
-                    <h2>Paris</h2>
+                    <h2>Rome</h2>
                     <div class="date">August 15th 2022</div>
                 </div>
                 <div class="time">3:46:18 <small>AM</small></div>
             </div>
+            <div class="city" id="tokyo">
+                <div>
+                    <h2>Tokyo</h2>
+                    <div class="date">August 15th 2022</div>
+                </div>
+                <div class="time">1:46:18 <small>AM</small></div>
+            </div>
         </div>
-        <footer>This project was coded by <bold>Laura</bold> and is <a href="https://github.com/laumo15/world-clock">open sourced on GitHub</a></footer>
+        <footer>This project was coded by <strong>Laura</strong> and is <a href="https://github.com/laumo15/world-clock">open sourced on GitHub</a></footer>
         <script src = "javascript/index.js"></script>
     </div>
 </body>
